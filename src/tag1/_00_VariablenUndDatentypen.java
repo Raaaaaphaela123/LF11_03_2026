@@ -1,7 +1,7 @@
 package tag1;
 
 public class _00_VariablenUndDatentypen {
-	public static void main(String[] args) {
+	  void main(String[] args) {
 		// Konstante: Mehrwertsteuer
 		final double MWST = 0.19;
 
@@ -20,17 +20,17 @@ public class _00_VariablenUndDatentypen {
 		double[] produktPreise = {19.99, 9.99, 14.99, 4.99}; // Preise der Produkte im Warenkorb
 
 		// Ausgabe der Variablen
-		System.out.println("Mehrwertsteuer: " + MWST);
-		System.out.println("Anzahl Produkte im Warenkorb: " + anzahlProdukte);
-		System.out.println("Maximaler Bestellwert: " + maxBestellwert);
-		System.out.println("Kundenalter: " + kundenAlter);
-		System.out.println("Kunden-ID: " + kundenID);
-		System.out.println("Produktbewertung: " + produktBewertung);
-		System.out.println("Warenkorbwert: " + warenkorbWert + " €");
-		System.out.println("Versandkostenfrei? " + istVersandKostenfrei);
-		System.out.println("Kundengeschlecht: " + kundenGeschlecht);
+		IO.println("Mehrwertsteuer: " + MWST);
+		IO.println("Anzahl Produkte im Warenkorb: " + anzahlProdukte);
+		IO.println("Maximaler Bestellwert: " + maxBestellwert);
+		IO.println("Kundenalter: " + kundenAlter);
+		IO.println("Kunden-ID: " + kundenID);
+		IO.println("Produktbewertung: " + produktBewertung);
+		IO.println("Warenkorbwert: " + warenkorbWert + " €");
+		IO.println("Versandkostenfrei? " + istVersandKostenfrei);
+		IO.println("Kundengeschlecht: " + kundenGeschlecht);
 
-		System.out.println("Kundenname: " + kundenName);
-		System.out.println("Preis des ersten Produkts: " + produktPreise[0] + " €");
+		IO.println("Kundenname: " + kundenName);
+		IO.println("Preis des ersten Produkts: " + produktPreise[0] + " €");
 	}
 }
