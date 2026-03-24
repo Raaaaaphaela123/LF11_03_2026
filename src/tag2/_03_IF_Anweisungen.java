@@ -40,6 +40,5 @@ public class _03_IF_Anweisungen {
         } else {
             IO.println("Bist du überhaupt Kunde hier?");
         }
-
     }
 }
