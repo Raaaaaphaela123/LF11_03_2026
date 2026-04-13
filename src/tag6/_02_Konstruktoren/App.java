@@ -1,4 +1,4 @@
-package tag6.konstruktoren;
+package tag6._02_Konstruktoren;
 
 public class App {
     static void main() {

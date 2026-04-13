@@ -1,4 +1,4 @@
-package tag6.konstruktoren;
+package tag6._03_Vererbung;
 
 public class Hund {
     // Attribute (Eigenschaften)
@@ -29,8 +29,8 @@ public class Hund {
     }
 
     // Ausgabemethode
-    public void ausgeben() {
-        IO.println(this.name + " ist so alt: " + this.alter);
+    public String info() {
+        return this.name + " ist so alt: " + this.alter;
     }
 
 }

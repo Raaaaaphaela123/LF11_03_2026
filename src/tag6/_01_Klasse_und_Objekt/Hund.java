@@ -1,4 +1,4 @@
-package tag6;
+package tag6._01_Klasse_und_Objekt;
 
 public class Hund {
     // Attribute (Eigenschaften)
