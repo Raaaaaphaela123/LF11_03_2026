@@ -4,13 +4,14 @@ public class Auto extends Fahrzeug {
 
     private int anzahlTueren;
 
-
     // Annotation, die zeigt, dass eine Methode hier überschrieben wurde
     @Override
     public void bewegen() {
         IO.println("Das Auto bewegt sich.");
     }
 
+
+    //Überladen von Methoden
     public void reifenWechseln() {
         IO.println("Reifen wurden gewechselt.");
     }
@@ -20,8 +21,6 @@ public class Auto extends Fahrzeug {
     }
 
     // Überschreiben der toString
-
-
     @Override
     public String toString() {
         return super.toString() + ", Anzahl der Türen: " + anzahlTueren;
